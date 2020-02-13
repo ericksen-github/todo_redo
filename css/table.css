@@ -1,0 +1,36 @@
+
+table {
+    border-collapse: collapse; 
+    margin: auto; 
+}
+
+td, th {
+    padding: 8px 20px 8px 5px;  
+    vertical-align: middle;
+    text-align: left;
+    font-size: 18px;
+}
+
+th {
+    text-align: left;
+    border-bottom: solid 2px #b1b1b1; 
+}
+
+td {
+    border-top: solid 1px #b1b1b1; 
+}
+
+.removeButton {
+    border-radius: 5px; 
+    padding: 8px 10px 8px 10px;  
+    text-align: center;
+    background: #ebebeb; 
+}
+
+.removeButton:hover {
+    background: #d4d4d4; 
+}
+
+thead>tr>:nth-child(4), .priorityColumn {
+    text-align: center; 
+} 

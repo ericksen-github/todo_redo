@@ -1,0 +1,146 @@
+html, body, #mainContainer {
+    height: 100%; 
+    font-family: 'Righteous', cursive;
+}
+
+#sideBlock {
+    float: left; 
+    background-color: #ffffff;
+    border-right: 1px solid #c2cad0; 
+    width: 280px; 
+    height: 100%;  
+    -webkit-box-shadow: 7px 0px 10px -4px rgba(0,0,0,0.44);
+    -moz-box-shadow: 7px 0px 10px -4px rgba(0,0,0,0.44);
+    box-shadow: 7px 0px 10px -4px rgba(0,0,0,0.44);
+}
+
+#sideBlockTitle {
+    color: #ffffff;  
+    padding: 10px;
+    margin: 10px;  
+    font-size: 20px;
+    width: 240px; 
+    -webkit-box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+    -moz-box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+    box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+    margin-bottom: 10px; 
+    background-color: #7E698B;
+    text-align: center;
+}
+
+#createNewProject {
+    height: 40px; 
+    width: 210px; 
+    margin-left: 35px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #e6e6e6;
+    -webkit-box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+    -moz-box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+    box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+}
+
+#createNewProject:hover {
+    background-color: #cecdcd;
+    -webkit-box-shadow: 6px 6px 16px -6px rgba(48, 48, 48, 0.911);
+    -moz-box-shadow: 6px 6px 16px -6px rgba(48, 48, 48, 0.911);
+    box-shadow: 6px 6px 16px -6px rgba(48, 48, 48, 0.911);
+}
+
+.projectsOnList {
+    height: 40px; 
+    width: 230px; 
+    margin-left: 25px;
+    margin-bottom: 5px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #b97e9d;
+    -webkit-box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+    -moz-box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+    box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+}
+
+.projectsOnList:hover {
+    background-color: #af7091;
+    -webkit-box-shadow: 6px 6px 16px -6px rgba(48, 48, 48, 0.911);
+    -moz-box-shadow: 6px 6px 16px -6px rgba(48, 48, 48, 0.911);
+    box-shadow: 6px 6px 16px -6px rgba(48, 48, 48, 0.911);
+}
+
+#titleBlock {
+    text-align: center;
+    width: 100%; 
+    height: 80px; 
+    background-image: linear-gradient(to bottom right, #eea786, #dd7882);
+    border-bottom: 1px solid #c26a73;
+}
+
+#titleText {
+    line-height: 80px;
+    color: #ebebeb; 
+    font-size: 40px; 
+}
+
+.projectsTaskContainer {
+    margin: 10px 0px 10px 290px; 
+    width: 1000px; 
+    text-align: center;  
+    padding: 10px; 
+    -webkit-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.49);
+    box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.49);
+}
+
+.projectTitleContainer {
+    text-align:center;
+}
+
+.projectTitles {
+    height: 40px; 
+    width: 230px; 
+    margin: auto; 
+    line-height: 40px;
+    text-align: center;
+    background-color: #b97e9d;
+    -webkit-box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+    -moz-box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+    box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+}
+
+.createNewTaskButton {
+    height: 40px; 
+    width: 210px; 
+    margin: auto; 
+    margin-top: 20px; 
+    line-height: 40px;
+    text-align: center;
+    background-color: #e6e6e6;
+    -webkit-box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+    -moz-box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+    box-shadow: 6px 6px 16px -6px rgba(48,48,48,0.68);
+}
+
+.projectDeleteButton {
+    float: right; 
+    background-color: #cecece;
+    padding: 5px 8px 5px 8px;
+    border-radius: 20px;
+}
+
+.projectDeleteButton:hover {
+    background-color: #c0bebe;
+}
+
+#overlay {
+    position: fixed;
+    display: none; 
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); 
+    z-index: 2; 
+    cursor: not-allowed; 
+  }

@@ -1,0 +1,84 @@
+#taskFormContainer {
+    position: absolute;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 5px;
+    top: 125px; 
+    left: 50%; 
+    margin-left: -200px; 
+    padding: 10px; 
+    width: 400px; 
+    z-index: 3;
+    display: block; 
+}
+
+#datePrioTitleContainer, #datePrioItemContainer {
+    text-align: center; 
+}
+
+#taskFormTitle {
+    font-size: 30px; 
+    text-align: center;
+}
+
+.formTaskSubtitle {
+    font-size: 20px; 
+    margin-left: 10px; 
+}
+
+#taskPriorityTitle, #taskDateTitle {
+    float: none; 
+    display: inline-block; 
+    text-align: center;
+    width: 80px; 
+}
+
+#submitTaskButton, #cancelTaskButton,
+#taskDate, #taskPriority {
+    float: none; 
+    display: inline-block; 
+    border-radius: 5px; 
+    text-align: center;
+    padding: 0px 15px 0px 15px; 
+    line-height: 46px; 
+    width: 80px; 
+}
+
+#taskPriorityTitle, #taskDateTitle {
+    width: 120px; 
+}
+
+#taskDate {
+    height: 30px; 
+    width: 110px; 
+    line-height: 30px;
+    margin-right: 40px; 
+}
+
+#taskPriority {
+    margin-left: -20px; 
+}
+
+#buttonTaskContainer {
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+#submitTaskButton {
+    color: white; 
+    background-color: #7E698B; 
+    margin-right: 10px; 
+}
+
+#cancelTaskButton{
+    color: rgb(0, 0, 0); 
+    background-color: #dddddd; 
+    margin-left: 10px; 
+}
+
+#submitTaskButton:hover {
+    background-color: rgb(102, 85, 112); 
+}
+
+#cancelTaskButton:hover {
+    background-color: #bebdbd; 
+}
