@@ -1,4 +1,4 @@
-import {projectsArray, localStorageFunctions} from "./localStorage.js"
+import {projectsArray, localStorageFunctions} from "./localStorage.js";
 
 const tasKDOMFunctions = (() => {
     const createNewTaskDOM = (project, currentProjectDOM) => {
@@ -60,9 +60,9 @@ const tasKDOMFunctions = (() => {
         document.querySelectorAll(".removeButtonNew").forEach((button) => {
             button.addEventListener("click", () => {
                 removeTask(button.parentElement.parentElement, projectTitle); // passes same row as remove button
-            })
+            });
         button.classList.replace("removeButtonNew","removeButton");   // changes classlist to avoid overlapping events
-        })
+        });
     }
 
     const removeTask = (selectedRow, projectTitle) => {
@@ -92,4 +92,4 @@ return {
     };
     })();
 
-    export { tasKDOMFunctions }
+    export { tasKDOMFunctions };

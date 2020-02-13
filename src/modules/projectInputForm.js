@@ -1,5 +1,5 @@
-import { projectDOMFunctions } from "./projectDOM.js"
-import { localStorageFunctions } from "./localStorage.js"
+import { projectDOMFunctions } from "./projectDOM.js";
+import { localStorageFunctions } from "./localStorage.js";
 
 const formFunctions = (() => {
     
@@ -16,7 +16,7 @@ const formFunctions = (() => {
         nameTitle.classList = "formSubtitle"; 
         nameTitle.innerHTML = "Project Name"; 
 
-        const nameTextBox = document.createElement("input")
+        const nameTextBox = document.createElement("input");
         nameTextBox.setAttribute("type", "text"); 
         nameTextBox.placeholder = "Type project name here...";
         nameTextBox.classList = "formTextBox"; 
@@ -76,4 +76,4 @@ const formFunctions = (() => {
     };
   })();
 
-  export {formFunctions}
+  export {formFunctions};

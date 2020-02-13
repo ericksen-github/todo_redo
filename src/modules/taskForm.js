@@ -116,7 +116,7 @@ const taskFormFunctions = (() => {
     const addNewTask = (newTask, currentProjectTitle) => {
    
         let indexOfProject; 
-        currentProjectDOM = document.getElementById(currentProjectTitle + "projectDOM")
+        currentProjectDOM = document.getElementById(currentProjectTitle + "projectDOM");
 
         for (let i = 0; i < projectsArray.length; i++) {
             if (projectsArray[i].title == currentProjectTitle){
@@ -124,8 +124,8 @@ const taskFormFunctions = (() => {
             }
         }
         
-        projectsArray[indexOfProject].tasks.push(newTask)
-        console.log(projectsArray[indexOfProject])
+        projectsArray[indexOfProject].tasks.push(newTask);
+        console.log(projectsArray[indexOfProject]);
         tasKDOMFunctions.createNewTaskDOM(projectsArray[indexOfProject], currentProjectDOM); 
         localStorageFunctions.saveNewData(); 
     }
@@ -153,4 +153,4 @@ return {
     };
   })();
 
-  export { taskFormFunctions }
+  export { taskFormFunctions };

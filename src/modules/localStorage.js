@@ -1,5 +1,5 @@
-import { projectDOMFunctions } from "./projectDOM.js"
-import { taskFormFunctions } from "./taskForm.js"
+import { projectDOMFunctions } from "./projectDOM.js";
+import { taskFormFunctions } from "./taskForm.js";
 
 let projectsArray = [];
 
@@ -61,4 +61,4 @@ return {
    };
  })();
 
- export { localStorageFunctions, projectsArray }
+ export { localStorageFunctions, projectsArray };

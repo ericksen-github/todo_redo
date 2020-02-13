@@ -1,5 +1,5 @@
-import { localStorageFunctions } from "./modules/localStorage.js"
-import { formFunctions } from "./modules/projectInputForm.js"
+import { localStorageFunctions } from "./modules/localStorage.js";
+import { formFunctions } from "./modules/projectInputForm.js";
 
 if (localStorageFunctions.storageAvailable("localStorage")) {
     localStorageFunctions.populateStorage(); 

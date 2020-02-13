@@ -1,6 +1,6 @@
-import {projectsArray, localStorageFunctions} from "./localStorage.js"
-import {ProjectFactory} from "./project.js"
-import {taskFormFunctions} from "./taskForm.js"
+import {projectsArray, localStorageFunctions} from "./localStorage.js";
+import {ProjectFactory} from "./project.js";
+import {taskFormFunctions} from "./taskForm.js";
 
 const projectDOMFunctions = (() => {
     const createProjectDOM = (nameText) => {
@@ -81,7 +81,8 @@ const projectDOMFunctions = (() => {
         submitButton.id = "submitTaskButton"; 
         submitButton.innerHTML = "Submit"; 
         submitButton.addEventListener("click", 
-                                      function() { deleteProject(projectName, projectDiv) }); 
+                                      function() { deleteProject(projectName, projectDiv);
+                                    }); 
 
         const cancelButton = document.createElement("div"); 
         cancelButton.classList = "formButton"; 
@@ -123,4 +124,4 @@ return {
     };
   })();
 
-  export { projectDOMFunctions }
+  export { projectDOMFunctions };
